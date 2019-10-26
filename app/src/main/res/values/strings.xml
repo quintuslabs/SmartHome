@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="ob_header1">SIMPLE ABROAD CALLS</string>
+    <string name="ob_header2">FREE WONEP TO WONEP</string>
+    <string name="ob_header3">NO HIDDEN CHARGES OR FEES</string>
+
+    <string name="ob_get_started">GET STARTED</string>
+
+    <string name="ob_desc1">Wonep converts international calls to local calls without WiFi or data</string>
+    <string name="ob_desc2">If the person you’re calling also has Wonep the call will be entirely free</string>
+    <string name="ob_desc3">We have a very small charge for non-Wonep calls to mobiles or landlines</string>
+
+    <string name="demo_content">Lorem ipsum dolor sit amet, consectetur\n adipiscing elit. Vivamus sodales faucibus\n dapibus. Etiam mattis leo quis laoreet dictum.</string>
+    <string name="demo_title">Lorem Ipsum</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+</resources>
