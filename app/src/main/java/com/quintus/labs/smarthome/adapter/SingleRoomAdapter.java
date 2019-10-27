@@ -2,7 +2,6 @@ package com.quintus.labs.smarthome.adapter;
 
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +12,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.quintus.labs.smarthome.R;
 import com.quintus.labs.smarthome.model.Room;
-import com.quintus.labs.smarthome.ui.activity.RoomDetailsActivity;
 
 import java.util.List;
+
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 
 public class SingleRoomAdapter extends RecyclerView.Adapter<SingleRoomAdapter.MyViewHolder> {
 
@@ -41,14 +46,6 @@ public class SingleRoomAdapter extends RecyclerView.Adapter<SingleRoomAdapter.My
 
         holder.title.setText(room.getName());
 
-        holder.cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(context, RoomDetailsActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                context.startActivity(intent);
-            }
-        });
 
     }
 

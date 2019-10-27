@@ -6,6 +6,12 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.quintus.labs.smarthome.R;
 
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 
 public class OnboardingPageTransformer implements ViewPager.PageTransformer {
 

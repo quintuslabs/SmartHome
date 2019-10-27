@@ -1,96 +1,172 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--Smart Home
+    https://github.com/quintuslabs/SmartHome
+    Created on 27-OCT-2019.
+    Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="#EEEEEE"
     tools:context=".ui.activity.LoginActivity">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingTop="30dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Welcome"
-                android:textColor="@color/white"
-                android:textSize="14dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="SignIn"
-                android:textColor="@color/white"
-                android:textSize="30dp"
-                android:textStyle="bold" />
+            android:orientation="vertical">
 
             <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginTop="80dp">
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
 
-                <ScrollView
+                <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="230dp"
+                    android:background="@drawable/bg_2" />
 
-                    <RelativeLayout
+                <LinearLayout
+                    android:id="@+id/linear_layout"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/circle_white"
+                    android:elevation="2dp"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:id="@+id/image_view"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_margin="20dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginTop="50dp"
-                            android:orientation="vertical"
-                            android:padding="10dp">
-
-                            <EditText
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@drawable/custom_edit_text"
-                                android:hint="Email"
-                                android:padding="10dp"
-                                android:textColor="@color/textColor"
-                                android:textColorHint="@color/textColor"
-                                android:textSize="14dp" />
-
-                            <com.google.android.material.textfield.TextInputLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="15dp"
-                                android:textColorHint="@color/hintColor"
-                                app:passwordToggleEnabled="true">
-
-                                <EditText
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:background="@drawable/custom_edit_text"
-                                    android:hint="Password"
-                                    android:textColor="@color/textColor"
-                                    android:textColorHint="@color/textColor" />
-                            </com.google.android.material.textfield.TextInputLayout>
-
-
-                        </LinearLayout>
-
-                    </RelativeLayout>
-                </ScrollView>
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/logo" />
+                </LinearLayout>
 
             </RelativeLayout>
 
-        </LinearLayout>
-    </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Login"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="8dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/gradient_row_bg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_user" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#CACACA" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="User Name"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/textColor"
+                        android:textColorHint="@color/hintColor"></EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_password" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#CACACA" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="@color/textColor"
+                        android:textColorHint="@color/hintColor"></EditText>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:text="\? Forgot Password"
+                    android:textColor="@color/textColor"
+                    android:textSize="14dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/gradient_row_bg"
+                    android:onClick="onLoginClicked"
+                    android:paddingLeft="100dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="100dp"
+                    android:paddingBottom="10dp"
+                    android:text="Login"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

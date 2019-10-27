@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--Smart Home
+   https://github.com/quintuslabs/SmartHome
+   Created on 27-OCT-2019.
+   Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/view_pager_container"
     android:layout_width="match_parent"

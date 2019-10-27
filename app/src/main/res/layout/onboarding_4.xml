@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--Smart Home
+   https://github.com/quintuslabs/SmartHome
+   Created on 27-OCT-2019.
+   Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5FA091">
+    android:background="#FF87B71B">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -26,18 +29,18 @@
         app:srcCompat="@drawable/onboarding_activity_ic_image_4"
         tools:ignore="VectorDrawableCompat" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:contentDescription="TODO"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:srcCompat="@drawable/onboarding_activity_ic_waves_4"
-        tools:ignore="VectorDrawableCompat" />
+    <!-- <ImageView
+         android:id="@+id/imageView4"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:contentDescription="TODO"
+         android:scaleType="centerCrop"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.5"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="@+id/guideline12"
+         app:srcCompat="@drawable/onboarding_activity_ic_waves_4"
+         tools:ignore="VectorDrawableCompat" />-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -81,7 +84,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/onboarding_activity_button_4"
         android:fontFamily="@font/montserrat_semibold"
         android:onClick="finishPage"

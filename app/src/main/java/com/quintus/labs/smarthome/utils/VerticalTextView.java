@@ -7,6 +7,12 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.widget.TextView;
 
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 public class VerticalTextView extends TextView {
     final boolean topDown;
 

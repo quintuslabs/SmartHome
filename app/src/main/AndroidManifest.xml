@@ -14,8 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.activity.RoomDetailsActivity"
+            android:name=".ui.activity.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ui.activity.RoomDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ui.activity.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">

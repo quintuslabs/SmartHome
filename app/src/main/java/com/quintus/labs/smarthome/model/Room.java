@@ -1,5 +1,12 @@
 package com.quintus.labs.smarthome.model;
 
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
+
 public class Room {
     String id;
     String name;

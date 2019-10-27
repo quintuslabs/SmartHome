@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--Smart Home
+   https://github.com/quintuslabs/SmartHome
+   Created on 27-OCT-2019.
+   Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6DB8FF">
+    android:background="@color/next_3">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -13,7 +16,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.1" />
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -24,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
         app:srcCompat="@drawable/onboarding_activity_ic_waves_3"
-        tools:ignore="VectorDrawableCompat" />
+        tools:ignore="VectorDrawableCompat" />-->
 
     <ImageView
         android:id="@+id/imageView3"
@@ -83,7 +86,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/onboarding_activity_button_3"
         android:fontFamily="@font/montserrat_semibold"
         android:onClick="nextPage"

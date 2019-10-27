@@ -4,7 +4,10 @@ package com.quintus.labs.smarthome.utils;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * Created by Suleiman on 18-04-2015.
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 public abstract class MyRecyclerScroll extends RecyclerView.OnScrollListener {
     private static final float HIDE_THRESHOLD = 100;

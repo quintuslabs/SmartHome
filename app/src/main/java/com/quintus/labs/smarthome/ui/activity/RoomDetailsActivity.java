@@ -1,6 +1,7 @@
 package com.quintus.labs.smarthome.ui.activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,6 +21,12 @@ import com.quintus.labs.smarthome.model.Room;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 public class RoomDetailsActivity extends AppCompatActivity {
     private List<Room> roomList = new ArrayList<>();
     private RecyclerView recyclerView;
@@ -62,23 +69,26 @@ public class RoomDetailsActivity extends AppCompatActivity {
     }
 
     private void prepareRoomData() {
-        Room room = new Room("1", "BedRoom");
+        Room room = new Room("1", "Light");
         roomList.add(room);
-        room = new Room("2", "Kitchen");
+        room = new Room("2", "Fan");
         roomList.add(room);
-        room = new Room("1", "Bathroom");
+        room = new Room("1", "Air Conditioner");
         roomList.add(room);
-        room = new Room("2", "Hall");
+        room = new Room("2", "Table Light");
         roomList.add(room);
-        room = new Room("1", "Dining");
+        room = new Room("1", "Stand Fan");
         roomList.add(room);
-        room = new Room("2", "Kitchen");
+        room = new Room("2", "Footer Light");
         roomList.add(room);
-        room = new Room("1", "BedRoom");
-        roomList.add(room);
-        room = new Room("2", "Kitchen");
+        room = new Room("1", "TV");
         roomList.add(room);
 
         mAdapter.notifyDataSetChanged();
+    }
+
+    public void onBackClicked(View view) {
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        finish();
     }
 }

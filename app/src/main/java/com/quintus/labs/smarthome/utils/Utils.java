@@ -9,9 +9,11 @@ import androidx.core.graphics.drawable.DrawableCompat;
 
 import com.quintus.labs.smarthome.R;
 
-
 /**
- * Created by Suleiman on 30-04-2015.
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 public class Utils {
 

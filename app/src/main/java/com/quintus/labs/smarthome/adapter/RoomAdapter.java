@@ -17,6 +17,13 @@ import com.quintus.labs.smarthome.ui.activity.RoomDetailsActivity;
 
 import java.util.List;
 
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
+
 public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.MyViewHolder> {
 
     Context context;

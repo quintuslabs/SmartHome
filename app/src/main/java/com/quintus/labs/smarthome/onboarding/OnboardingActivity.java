@@ -13,8 +13,14 @@ import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.ViewPager;
 
 import com.quintus.labs.smarthome.R;
-import com.quintus.labs.smarthome.ui.activity.MainActivity;
+import com.quintus.labs.smarthome.ui.activity.LoginActivity;
 
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 
 public class OnboardingActivity extends AppCompatActivity {
 
@@ -62,7 +68,7 @@ public class OnboardingActivity extends AppCompatActivity {
     }
 
     public void finishPage(View view) {
-        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        startActivity(new Intent(getApplicationContext(), LoginActivity.class));
         finish();
     }
 }

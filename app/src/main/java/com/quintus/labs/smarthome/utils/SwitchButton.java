@@ -19,9 +19,11 @@ import android.widget.Checkable;
 
 import com.quintus.labs.smarthome.R;
 
-
 /**
- * SwitchButton.
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 public class SwitchButton extends View implements Checkable {
     private static final int DEFAULT_WIDTH = dp2pxInt(58);

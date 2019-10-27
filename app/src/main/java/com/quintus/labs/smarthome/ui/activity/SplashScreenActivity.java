@@ -17,6 +17,12 @@ import androidx.core.content.ContextCompat;
 import com.quintus.labs.smarthome.R;
 import com.quintus.labs.smarthome.onboarding.OnboardingActivity;
 
+/**
+ * Smart Home
+ * https://github.com/quintuslabs/SmartHome
+ * Created on 27-OCT-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 
 public class SplashScreenActivity extends AppCompatActivity {
     Animation animBounce, animZoomIn, animSlideIn;
